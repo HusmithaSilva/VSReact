@@ -10,13 +10,19 @@ import Parent from './component/ParentCom'
 import UserGreet from './component/UserGreeting'
 import NameList from './component/NameList'
 import Stylecom from './component/Stylecomponent'
+import Inline from './component/Inline'
+import './appStyle.css'
+import style from './appStyle.module.css'
 
 function App() {
   return (
     <div className="App">
+      <Inline></Inline>
+      <h1 className='error'>Hello</h1>
+      <h1 className={style.success}>Husmitha</h1>
       {/* <UserGreet></UserGreet> */}
       {/* <NameList></NameList> */}
-      <Stylecom secondary={true}></Stylecom>
+      {/* <Stylecom secondary={true}></Stylecom> */}
       {/* <Parent></Parent>  */}
      {/* <Visitor></Visitor> */}
       {/* <Counter></Counter> */}

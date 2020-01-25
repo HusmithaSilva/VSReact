@@ -8,6 +8,7 @@ function Inline(){
     }
 
     return <div>
+        <h1 className='error'>Hello</h1>
         <hi style={heads}>Hello</hi>
     </div>
 }

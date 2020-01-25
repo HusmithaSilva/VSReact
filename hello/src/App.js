@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <Inline></Inline>
-      <h1 className='error'>Hello</h1>
+      {/* <h1 className='error'>Hello</h1> */}
       <h1 className={style.success}>Husmitha</h1>
       {/* <UserGreet></UserGreet> */}
       {/* <NameList></NameList> */}

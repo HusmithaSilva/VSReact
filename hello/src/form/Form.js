@@ -41,10 +41,13 @@ class FormHandling extends Component{
                 <div>
                     <label>Username</label>
                     <input type='text' value={this.state.Username} onChange={this.handleUsername}></input>
+                    <br></br>
+                    <br></br>
                 </div>
                 <div>
                     <label>Comments</label>
                     <textarea value={this.state.textarea} onChange={this.textvaluechange}></textarea>
+                    <br></br>
                 </div>
                 <div>
                     <label>Topics</label>
@@ -53,6 +56,7 @@ class FormHandling extends Component{
                         <option value='vue'>vue</option>
                         <option value='Angular'>Angular</option>
                     </select>
+                    <br></br>
                 </div>
                 <div>
                     <button type='submit'>Submit</button>

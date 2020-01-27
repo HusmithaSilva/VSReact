@@ -13,13 +13,14 @@ import Stylecom from './component/Stylecomponent'
 import Inline from './component/Inline'
 import './appStyle.css'
 import style from './appStyle.module.css'
+import FMH from './form/Form'
 
 function App() {
   return (
     <div className="App">
-      <Inline></Inline>
+      {/* <Inline></Inline> */}
       {/* <h1 className='error'>Hello</h1> */}
-      <h1 className={style.success}>Husmitha</h1>
+      {/* <h1 className={style.success}>Husmitha</h1> */}
       {/* <UserGreet></UserGreet> */}
       {/* <NameList></NameList> */}
       {/* <Stylecom secondary={true}></Stylecom> */}
@@ -36,6 +37,8 @@ function App() {
      {/* <Greet name='Silva'/>
       <Welcome name='ado'/> 
      <EventB></EventB> */}
+
+     <FMH></FMH>
 
     </div> 
   );

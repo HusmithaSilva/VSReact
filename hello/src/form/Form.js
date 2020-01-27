@@ -32,6 +32,7 @@ class FormHandling extends Component{
 
     submitchange = event => {
         alert(`${this.state.Username} ${this.state.textarea} ${this.state.topic}`)
+        event.preventDefault()
     }
 
     render(){

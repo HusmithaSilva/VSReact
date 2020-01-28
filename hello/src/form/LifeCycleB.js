@@ -22,6 +22,7 @@ class LifeCycleB extends Component{
 
     shouldComponentUpdate(){
         console.log('LIfeB should componentupdate')
+        return true
     }
 
     getSnapshotBeforeUpdate(prevProps, prevState){

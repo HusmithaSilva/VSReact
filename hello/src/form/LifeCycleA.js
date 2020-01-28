@@ -24,6 +24,7 @@ class LifeCycle extends Component{
 
     shouldComponentUpdate(){
         console.log('LIfeA should componentupdate')
+        return true
 
     }
 

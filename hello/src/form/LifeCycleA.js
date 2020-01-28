@@ -24,7 +24,7 @@ class LifeCycle extends Component{
 
     shouldComponentUpdate(){
         console.log('LIfeA should componentupdate')
-        
+
     }
 
     getSnapshotBeforeUpdate(prevProps, prevState){
@@ -45,9 +45,9 @@ class LifeCycle extends Component{
         console.log('render completed')
         return(
             <div>
-                LifeCycleA 
-                <LifeCycleB></LifeCycleB>
+                <div>LifeCycleA</div> 
                 <button onClick={this.changestate}>Change me</button>
+                <LifeCycleB></LifeCycleB>
             </div>
            
         )

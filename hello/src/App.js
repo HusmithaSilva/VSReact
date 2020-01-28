@@ -39,7 +39,7 @@ function App() {
       <Welcome name='ado'/> 
      <EventB></EventB> */}
     <LCcomponent></LCcomponent>
-     <FMH></FMH>
+     {/* <FMH></FMH> */}
 
     </div> 
   );

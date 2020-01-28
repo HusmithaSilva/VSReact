@@ -16,6 +16,8 @@ import style from './appStyle.module.css'
 import FMH from './form/Form'
 import LCcomponent from './form/LifeCycleA'
 import Frag from './form/Table'
+import Pure from './form/PureComponent'
+import Parent from './form/ParentComp'
 
 function App() {
   return (
@@ -41,7 +43,10 @@ function App() {
      <EventB></EventB> */}
     {/* <LCcomponent></LCcomponent> */}
      {/* <FMH></FMH> */}
-     <Frag></Frag>
+     {/* <Frag></Frag> */}
+     {/* <Pure></Pure> */}
+
+     <Parent></Parent>
 
     </div> 
   );

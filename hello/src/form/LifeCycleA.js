@@ -25,11 +25,9 @@ class LifeCycle extends Component{
         return(
             <div>
                 LifeCycleA 
-            </div>
-            <div>
                 <LifeCycleB></LifeCycleB>
             </div>
-            
+           
         )
     }
 }

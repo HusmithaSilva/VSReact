@@ -17,7 +17,7 @@ import FMH from './form/Form'
 import LCcomponent from './form/LifeCycleA'
 import Frag from './form/Table'
 import Pure from './form/PureComponent'
-import Parent from './form/ParentComp'
+import Parent11 from './form/ParentComp'
 
 function App() {
   return (
@@ -46,7 +46,7 @@ function App() {
      {/* <Frag></Frag> */}
      {/* <Pure></Pure> */}
 
-     <Parent></Parent>
+     <Parent11></Parent11>
 
     </div> 
   );

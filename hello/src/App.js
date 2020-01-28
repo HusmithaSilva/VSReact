@@ -15,6 +15,7 @@ import './appStyle.css'
 import style from './appStyle.module.css'
 import FMH from './form/Form'
 import LCcomponent from './form/LifeCycleA'
+import Frag from './form/Table'
 
 function App() {
   return (
@@ -38,8 +39,9 @@ function App() {
      {/* <Greet name='Silva'/>
       <Welcome name='ado'/> 
      <EventB></EventB> */}
-    <LCcomponent></LCcomponent>
+    {/* <LCcomponent></LCcomponent> */}
      {/* <FMH></FMH> */}
+     <Frag></Frag>
 
     </div> 
   );

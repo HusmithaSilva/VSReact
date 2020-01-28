@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
-import LifeCycleB from './LifeCycleB'
 
-class LifeCycle extends Component{
+class LifeCycleB extends Component{
 
     constructor(){
         super()
@@ -24,13 +23,9 @@ class LifeCycle extends Component{
         console.log('render completed')
         return(
             <div>
-                LifeCycleA 
+                LifeCycleB 
             </div>
-            <div>
-                <LifeCycleB></LifeCycleB>
-            </div>
-            
         )
     }
 }
-export default LifeCycle
+export default LifeCycleB

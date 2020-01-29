@@ -47,9 +47,9 @@ function App() {
      {/* <Frag></Frag> */}
      {/* <Pure></Pure> */}
 
-     {/* <Parent11></Parent11> */}
+     <Parent11></Parent11>
 
-     <Memo></Memo>
+     {/* <Memo></Memo> */}
 
     </div> 
   );

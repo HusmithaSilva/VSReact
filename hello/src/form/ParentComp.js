@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import RegComp from'./RegularComp'
 import PurComp from './PureComponent'
+import meme from './MemoComp'
 class parent extends Component{
 
     constructor(){
@@ -23,8 +24,10 @@ setInterval(()=> {
         return(
             <div>
                 parentcomponent
-                <RegComp Name={this.state.Name}></RegComp>
-                <PurComp Name={this.state.Name}></PurComp>
+                {/* <RegComp Name={this.state.Name}></RegComp>
+                <PurComp Name={this.state.Name}></PurComp> */}
+                <meme name={this.state.name}></meme>
+
             </div>
         )
     }

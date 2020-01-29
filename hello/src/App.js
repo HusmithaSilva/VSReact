@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Greet from './component/Greet'
@@ -18,6 +18,7 @@ import LCcomponent from './form/LifeCycleA'
 import Frag from './form/Table'
 import Pure from './form/PureComponent'
 import Parent11 from './form/ParentComp'
+import Memo from './form/MemoComp'
 
 function App() {
   return (
@@ -46,7 +47,9 @@ function App() {
      {/* <Frag></Frag> */}
      {/* <Pure></Pure> */}
 
-     <Parent11></Parent11>
+     {/* <Parent11></Parent11> */}
+
+     <Memo></Memo>
 
     </div> 
   );

@@ -20,6 +20,7 @@ import Pure from './form/PureComponent'
 import Parent11 from './form/ParentComp'
 import Memo from './form/MemoComp'
 import Ref from './form/RefDemo'
+import FocusInn from './form/FocusInput'
 
 function App() {
   return (
@@ -51,7 +52,9 @@ function App() {
      {/* <Parent11></Parent11> */}
 
      {/* <Memo></Memo> */}
-     <Ref></Ref>
+     {/* <Ref></Ref> */}
+
+     <FocusInn ></FocusInn>
 
     </div> 
   );

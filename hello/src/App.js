@@ -21,6 +21,7 @@ import Parent11 from './form/ParentComp'
 import Memo from './form/MemoComp'
 import Ref from './form/RefDemo'
 import FocusInn from './form/FocusInput'
+import FRPp from './form/FRParentInput'
 
 function App() {
   return (
@@ -54,7 +55,9 @@ function App() {
      {/* <Memo></Memo> */}
      {/* <Ref></Ref> */}
 
-     <FocusInn ></FocusInn>
+     {/* <FocusInn ></FocusInn> */}
+
+     <FRPp></FRPp>
 
     </div> 
   );

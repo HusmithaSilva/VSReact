@@ -19,6 +19,7 @@ import Frag from './form/Table'
 import Pure from './form/PureComponent'
 import Parent11 from './form/ParentComp'
 import Memo from './form/MemoComp'
+import Ref from './form/RefDemo'
 
 function App() {
   return (
@@ -47,9 +48,10 @@ function App() {
      {/* <Frag></Frag> */}
      {/* <Pure></Pure> */}
 
-     <Parent11></Parent11>
+     {/* <Parent11></Parent11> */}
 
      {/* <Memo></Memo> */}
+     <Ref></Ref>
 
     </div> 
   );

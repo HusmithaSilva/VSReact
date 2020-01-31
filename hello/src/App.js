@@ -22,6 +22,7 @@ import Memo from './form/MemoComp'
 import Ref from './form/RefDemo'
 import FocusInn from './form/FocusInput'
 import FRPp from './form/FRParentInput'
+import PortalD from './form/PortalDemo'
 
 function App() {
   return (
@@ -57,8 +58,8 @@ function App() {
 
      {/* <FocusInn ></FocusInn> */}
 
-     <FRPp></FRPp>
-
+     {/* <FRPp></FRPp> */}
+     <PortalD></PortalD>
     </div> 
   );
 }

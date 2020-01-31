@@ -23,6 +23,8 @@ import Ref from './form/RefDemo'
 import FocusInn from './form/FocusInput'
 import FRPp from './form/FRParentInput'
 import PortalD from './form/PortalDemo'
+import Hh from './Intermediate/hero'
+import Errorboundry from './Intermediate/ErrorBoundry'
 
 function App() {
   return (
@@ -59,7 +61,12 @@ function App() {
      {/* <FocusInn ></FocusInn> */}
 
      {/* <FRPp></FRPp> */}
-     <PortalD></PortalD>
+     {/* <PortalD></PortalD> */}
+     <Errorboundry>
+     <Hh heroName='superman'></Hh>
+     <Hh heroName='batman'></Hh>
+     <Hh heroName='joker'></Hh>
+     </Errorboundry>
     </div> 
   );
 }

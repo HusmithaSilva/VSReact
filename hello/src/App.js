@@ -25,6 +25,7 @@ import FRPp from './form/FRParentInput'
 import PortalD from './form/PortalDemo'
 import Hh from './Intermediate/hero'
 import Errorboundry from './Intermediate/ErrorBoundry'
+import click from './Intermediate/clickCounter'
 
 function App() {
   return (
@@ -62,11 +63,14 @@ function App() {
 
      {/* <FRPp></FRPp> */}
      {/* <PortalD></PortalD> */}
-     <Errorboundry>
+     {/* <Errorboundry>
      <Hh heroName='superman'></Hh>
      <Hh heroName='batman'></Hh>
      <Hh heroName='joker'></Hh>
-     </Errorboundry>
+     </Errorboundry> */}
+
+     <click></click>
+
     </div> 
   );
 }
